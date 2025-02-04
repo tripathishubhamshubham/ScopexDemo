@@ -27,8 +27,10 @@ exports.config = {
         "appium:deviceName": "emulator-5554", // Ensure this matches adb devices output
         "appium:automationName": "UiAutomator2",
         "appium:appPackage": "com.scopex.scopexmobile",
-        "appium:appActivity": ".MainActivity",
-         
+        "appium:appActivity": ".MainActivity", 
+        "appium:app": path.join(process.cwd(),"/apk/android/ScopeXAPK/base.apk"),  // Replace with your APK path
+        "appium:autoGrantPermissions": true,
+        "appium:noReset": true
     }],
 
      

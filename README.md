@@ -6,6 +6,7 @@ $  cd ScopeXTest
 
 $ npm install 
 
+
 Run the code:
 $ npx wdio ./config/wdio.android.conf.js --spec tests/login.test.js
 
@@ -19,3 +20,7 @@ To change the user name and password Go to dataSet folder inside that test.json 
 Same for to change the Name, IFSC Code, Account number.
 
 Screenshot and Steps added into the Allure report.
+
+* In case if app is not installed then use below command to insatll the app in emulator
+
+adb install-multiple apk\android\ScopeXAPK\base.apk apk\android\ScopeXAPK\split_config.en.apk apk\android\ScopeXAPK\split_config.x86_64.apk apk\android\ScopeXAPK\split_config.xxhdpi.apk
