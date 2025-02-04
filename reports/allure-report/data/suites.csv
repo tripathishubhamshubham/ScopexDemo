@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","39026","should handle pop-ups, login, add a recipient, and logout","","Mon Feb 03 22:49:31 IST 2025","passed","Mon Feb 03 22:50:10 IST 2025","","Login and Add Recipient Test","",""

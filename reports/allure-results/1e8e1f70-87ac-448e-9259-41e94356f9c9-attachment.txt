@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//android.widget.EditText[@resource-id=\"RNE__Input__text-input\" and @text=\"Ex: 754521xxxx\"]"
+}

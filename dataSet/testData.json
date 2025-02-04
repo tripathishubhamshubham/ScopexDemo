@@ -1,0 +1,12 @@
+{
+    "login": {
+      "username": "stripathia8@gmail.com",
+      "password": "Shubham@1"
+    },
+    "recipient": {
+      "name": "John Doe",
+      "bankIFSC": "KKBK0001234",
+      "accountNumber": "7545219876"
+    }
+  }
+  
